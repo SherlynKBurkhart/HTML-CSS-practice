@@ -1,0 +1,59 @@
+<!-- practicing HTML and Angular Material Design -->
+
+<html>
+	<head>
+		<!-- links -->
+	    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
+		<link type="text/css" rel="stylesheet" href="styles.css"/>
+	</head>
+
+	<body>
+
+		<!-- first row - red box, blue box, grey box -->
+		<div layout="row">
+			<div flex="30" 
+				class="row1 boxRed">
+			</div>
+			<div flex="30" 
+				offset="5" 
+				class="row1 boxBlue">
+			</div>
+			<div flex="30" 
+				offset="5" 
+				class="row1 boxGrey">
+			</div>
+		</div>
+
+		<!-- second - text area -->
+		<div layout="column" class="textAll">
+			<p>This area is for the first paragraph.
+			</p>
+			<p>This area is for a second paragraph.
+		</div>
+
+		<!-- third row - red box, blue box -->
+		<div layout="row">
+  			<div flex="33"
+  				class="row3 boxRed">
+  			</div>
+  			<div flex="66"
+  				class="row3 boxBlue">
+  			</div>
+  		</div>
+
+  		<!-- fourth row - blue box, grey box inside red box -->
+		<div layout = "row">
+			<div flex="66"
+				class="row4 boxBlue">
+			</div>
+			<div flex="33"
+				class="row4 boxRed">
+  				<div class="row4 boxGrey"></div>
+  			</div>	
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js">
+		</script>
+
+	</body>
+</html>
