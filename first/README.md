@@ -1,3 +1,5 @@
+IF YOU ARE VIEWING THIS ON GITHUB, CHANGE THE VIEW TO "RAW".  IT WILL BE MUCH EASIER TO READ AND FOLLOW.
+
 This is an example of an instructional design that I created to assist an individual who asked me to teach them some basics of HTML and CSS.
 
 This README.md file provides directions for a beginner learning how to work with HTML (HyperText Markup Language) and CSS (Cascading Style Sheets).
