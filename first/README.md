@@ -6,7 +6,7 @@ This README.md file provides directions for a beginner learning how to work with
 
 I work on a MacBook Pro and these directions are specific for Macs and some directions may be specific for my Mac due to individual settings on my computer.  Please email me at sherlynburkhart@gmail.com with any questions, comments, corrections, or clarifications.
 
-The objective of this particular project is to make a page that looks as close to "first.png" as possible.
+This project creates boxes of different shapes and sizes with a place for text.
 
 
 CREATE A "myProjects" FOLDER
