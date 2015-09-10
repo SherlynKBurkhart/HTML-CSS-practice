@@ -30,6 +30,7 @@ CREATE A FOLDER FOR EACH INDIVIDUAL PROJECT
 7. Type folder name. Suggestion - “myFirstProject”.
 8. Select “enter/return” on keyboard.
 
+
 INSTALL "SUBLIME TEXT"
 1. Google "Sublime Text" and download the latest version on your computer.
 2. Open "Sublime Text".
@@ -134,11 +135,11 @@ VIEW FILE IN BROWSER - ONLY OPENS IN CHROME
 1. Install "Chrome" browser if it is not installed on your computer.
 	A. Google "chrome".
 	B. Install latest version.
-1. In Sublime Text move cursor over index.html file text window space.
-2. Two finger click.
-3. Select "Open in Browser" in grey popup box.
-4. Files are opened in Chrome.
-5. You should see three boxes with the colors red, blue, and grey.
+2. In Sublime Text move cursor over index.html file text window space.
+3. Two finger click.
+4. Select "Open in Browser" in grey popup box.
+5. Files are opened in Chrome.
+6. You should see three boxes with the colors red, blue, and grey.
 
 
 WRITE MORE CODE INTO THE "index.html" FILE
