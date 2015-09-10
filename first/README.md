@@ -1,6 +1,6 @@
 IF YOU ARE VIEWING THIS ON GITHUB, CHANGE THE VIEW TO "RAW".  IT WILL BE MUCH EASIER TO READ AND FOLLOW.
 
-1. Change view to raw. (if you viewing on are on github)
+1. Change view to raw. (if you are viewing on github)
 
 This is an example of an instructional design that I created to assist an individual who asked me to teach them some basics of HTML and CSS.
 
