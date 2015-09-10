@@ -1,5 +1,7 @@
 IF YOU ARE VIEWING THIS ON GITHUB, CHANGE THE VIEW TO "RAW".  IT WILL BE MUCH EASIER TO READ AND FOLLOW.
 
+0. Change view to raw. (if you viewing on are on github)
+
 This is an example of an instructional design that I created to assist an individual who asked me to teach them some basics of HTML and CSS.
 
 This README.md file provides directions for a beginner learning how to work with HTML (HyperText Markup Language) and CSS (Cascading Style Sheets).
@@ -10,40 +12,42 @@ This project creates boxes of different shapes and sizes with a place for text.
 
 
 CREATE A "myProjects" FOLDER
-0. Open "Finder".
-1. Select "Desktop" on the left side of the window.
-2. Select the settings caret at the top of the page ("settings" looks like a wheel, "caret" looks like a v).
-3. Select "New Folder".
-4. Type "myProjects" in place of "untitled folder" for the folder name. "myProjects" folder is where ALL of your projects are filed. 
-5. Press "command S" to save.
+1. Open "Finder".
+2. Select "Desktop" on the left side of the window.
+3. Select the settings caret at the top of the page ("settings" looks like a wheel, "caret" looks like a v).
+4. Select "New Folder".
+5. Type "myProjects" in place of "untitled folder" for the folder name. "myProjects" folder is where ALL of your projects are filed. 
+6. Press "command S" to save.
 
 
 CREATE A FOLDER FOR EACH INDIVIDUAL PROJECT
-0. Google "Sublime Text" and download the latest version on your computer.
-1. Open "Sublime Text"and make a new “myProjects” folder. 
-	A. Your computer's file system opens.
-	B. Select "Desktop".
-	C. Select "myProjects".
-	D. Select “Open”
-	E. Two finger click “myProjects” folder.
-	F. Select "New Folder”.
-	G. Type folder name. Suggestion - “myFirstProject”.
-	H. Select “enter/return” on keyboard.
+1. Open finder.
+2. Select "Desktop".
+3. Select "myProjects".
+4. Select “Open”
+5. Two finger click “myProjects” folder.
+6. Select "New Folder”.
+7. Type folder name. Suggestion - “myFirstProject”.
+8. Select “enter/return” on keyboard.
 
+INSTALL "SUBLIME TEXT"
+1. Google "Sublime Text" and download the latest version on your computer.
+2. Open "Sublime Text".
+3. Drag and drop "myProjects" folder into sublime text
+	
 
-CREATE AN HTML (HyperText Markup Language) FILE
-0. Two finger click “myFirstProject” folder.
-1. Select “New File”.
-2. Type "index.html".
-3. Press "command S” to save. 
-4. Confirm that the file is being saved in "myFirstProjects".
-5. Select “Save”. (A pop-up to purchase may occur - you may press cancel.)
-6. Delete “index.html” on line one.
-7. Type “<!DOCTYPE h”.
-8. Press “Return” key.
-9. Tab. Walla!! The below opening and closing tags appear. This is the basic HTML (HyperText Markup Language) file structure.
+CREATE AN HTML (HyperText Markup Language) FILE - THIS IS DONE IN SUBLIME TEXT
+1. Two finger click (it is a Mac thing) “myFirstProject” folder.
+2. Select “New File”.
+3. Type "index.html". This names the file.
+4. Press "command S” to save. 
+5. Confirm that the file is being saved in "myFirstProjects".
+6. Select “Save”. (A pop-up to purchase may occur - you may press cancel.)
+7. Delete “index.html” on line one.
+8. Type “<!DOCTYPE html”.
+9. Press “tab” key. Walla!! The below opening and closing tags appear. This is the basic HTML (HyperText Markup Language) file structure.
 
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>   (This first line may look like "<!DOCTYPE <html>")
 <html>
 <head>
 	<title></title>
@@ -53,24 +57,23 @@ CREATE AN HTML (HyperText Markup Language) FILE
 </body>
 </html>
 
-10. Delete "<!DOCTYPE ".
-
 
 WRITE CODE INTO THE "index.html" FILE
 IMPORTANT NOTE!  Typing accuracy is essential in code. Make sure the spaces, or lack thereof, between the words are correct. They could be the difference in your code working correctly or not. 
-0. Between opening and closing title tags "<title></title>" type: 
+1. Between opening and closing title tags "<title></title>" type: 
  	practicing HTML
 
-1. On the next line and in line with the opening title tag, "<title>", type: 
+2. Press return.
+3. Type or copy and paste:
 	<!-- links -->
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
 	<link type="text/css" rel="stylesheet" href="styles.css"> 
 
-2. On the line directly above the closing body tag, "</body>" type:
+4. On the line directly above the closing body tag, "</body>" type:
 	<!-- sources -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>	
 
-3. After the opening body tag <body>, on the next line, and in line with, type:
+5. Right after the opening body tag <body>, on the next line type:
 	<!-- first row - red box, blue box, grey box -->
 	<div layout="row">
 		<div flex="30" 
@@ -86,21 +89,21 @@ IMPORTANT NOTE!  Typing accuracy is essential in code. Make sure the spaces, or 
 		</div>
 	</div>
 
-4. Press "command S" to save.	
+6. Press "command S" to save.	
 
 
 CREATE A CSS (Cascading Style Sheets) FILE
-0. Two finger click “myFirstProject” folder.
-1. Select “New File”.
-2. Type "styles.css".
-3. Press "command S” to save. 
-4. Confirm that the file is being saved in "myFirstProjects".
-5. Select “Save”.  (A pop-up to purchase may occur - you may press cancel.)
-6. Delete “styles.css” on line one.
+1. Two finger click “myFirstProject” folder.
+2. Select “New File”.
+3. Type "styles.css".
+4. Press "command S” to save. 
+5. Confirm that the file is being saved in "myFirstProjects".
+6. Select “Save”.  (A pop-up to purchase may occur - you may press cancel.)
+7. Delete “styles.css” on line one.
 
 
 WRITE CODE INTO THE "styles.css" FILE
-0. Beginning at the top of the page type:
+1. Beginning at the top of the page type:
 
 html, body { 
   margin: 15px 10px 15px 10px;
@@ -124,17 +127,18 @@ html, body {
   height: 200px;
 }
 
-1. Save (command S).
+2. Save (command S).
 
 
 VIEW FILE IN BROWSER - ONLY OPENS IN CHROME
-0. Install "Chrome" browser if it is not installed on your computer.
+1. Install "Chrome" browser if it is not installed on your computer.
 	A. Google "chrome".
 	B. Install latest version.
-1. In Sublime Text move cursor over index.html file.
+1. In Sublime Text move cursor over index.html file text window space.
 2. Two finger click.
 3. Select "Open in Browser" in grey popup box.
 4. Files are opened in Chrome.
+5. You should see three boxes with the colors red, blue, and grey.
 
 
 WRITE MORE CODE INTO THE "index.html" FILE
@@ -202,7 +206,7 @@ WRITE MORE CODE INTO THE "styles.css" FILE
 1. Save.
 
 
-COMPLETED "index.html" FILE
+THIS IS WHAT THE COMPLETED "index.html" FILE LOOKS LIKE
 
 <html>
 	<head>
@@ -267,7 +271,7 @@ COMPLETED "index.html" FILE
 </html>
 
 
-COMPLETED "styles.css" FILE
+THIS IS WHAT THE COMPLETED "styles.css" FILE LOOKS LIKE
 
 html, body { 
   margin: 15px 10px 15px 10px;
@@ -325,7 +329,7 @@ TIME TO PLAY - FURTHER UNDERSTANDING HTML
 
 
 TIME TO PLAY - FURTHER UNDERSTANDING CSS (Cascading Style Sheets) COLORS
-0. In your Chrome browser go to websitehttps://www.google.com/design/spec/style/color.html#
+0. In your Chrome browser go to website https://www.google.com/design/spec/style/color.html#
 1. Scroll down the page to see all the colors!
 2. Pick any color identifier (it looks like #000000, and has numbers and letters).
 3. Open the "styles.css" file.
@@ -354,6 +358,9 @@ HOW DOES THE HTML FILE AND CSS FILE TALK TO EACH OTHER? In the <body> of "index.
 
 WHAT IS A GOOD LINK TO LEARN MORE ABOUT CSS?
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+WHAT IS THE DIFFERENCE BETWEEN AN 0PENING AND CLOSING TAG?
+An opening tag does not have a backslash "/". A closing tag has the "/", . ie. opening tag <body>, closing tag </body>.
 
 
 PLEASE EMAIL ME AT SherlynBurkhart@gmail.com WITH ANY OTHER QUESTIONS YOU MAY HAVE!
