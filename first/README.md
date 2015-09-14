@@ -17,36 +17,34 @@ CREATE A "myProjects" FOLDER
 3. Select the settings caret at the top of the page ("settings" looks like a wheel, "caret" looks like a v).
 4. Select "New Folder".
 5. Type "myProjects" in place of "untitled folder" for the folder name. "myProjects" folder is where ALL of your projects are filed. 
-6. Press "command S" to save.
+6. Press "enter/return" to save.
 
 
-CREATE A FOLDER FOR EACH INDIVIDUAL PROJECT
-1. Open finder.
+CREATE A "myFirstProject" FOLDER INSIDE THE "myProjects" FOLDER
+1. Open "Finder".
 2. Select "Desktop".
 3. Select "myProjects".
-4. Select “Open”
-5. Two finger click “myProjects” folder.
-6. Select "New Folder”.
-7. Type folder name. Suggestion - “myFirstProject”.
-8. Select “enter/return” on keyboard.
+4. Select the settings caret at the top of the page ("settings" looks like a wheel, "caret" looks like a v).
+5. Select "New Folder”.
+6. Type folder name. Suggestion - “myFirstProject”.
+7. Press “enter/return” to save.
 
 
 INSTALL "SUBLIME TEXT"
 1. Google "Sublime Text" and download the latest version on your computer.
 2. Open "Sublime Text".
-3. Drag and drop "myProjects" folder into sublime text
+3. Drag and drop "myProjects" folder into "Sublime Text".
 	
 
 CREATE AN HTML (HyperText Markup Language) FILE - THIS IS DONE IN SUBLIME TEXT
-1. Two finger click (it is a Mac thing) “myFirstProject” folder.
+1. Two finger click “myFirstProject” folder.
 2. Select “New File”.
-3. Type "index.html". This names the file.
-4. Press "command S” to save. 
+3. Press "command S” to save. 
+4. In the "Save As:" line, type "index.html".
 5. Confirm that the file is being saved in "myFirstProjects".
 6. Select “Save”. (A pop-up to purchase may occur - you may press cancel.)
-7. Delete “index.html” on line one.
-8. Type “<!DOCTYPE html”.
-9. Press “tab” key. Walla!! The below opening and closing tags appear. This is the basic HTML (HyperText Markup Language) file structure.
+7. Type “<!DOCTYPE html”.
+8. Press “return/enter” key. Walla!! The below opening and closing tags appear. This is the basic HTML (HyperText Markup Language) file structure.
 
 <!DOCTYPE <!DOCTYPE html>   (This first line may look like "<!DOCTYPE <html>")
 <html>
@@ -96,11 +94,10 @@ IMPORTANT NOTE!  Typing accuracy is essential in code. Make sure the spaces, or 
 CREATE A CSS (Cascading Style Sheets) FILE
 1. Two finger click “myFirstProject” folder.
 2. Select “New File”.
-3. Type "styles.css".
-4. Press "command S” to save. 
+3. Press "command S” to save.
+4. In the "Save As:" line, type "styles.css".
 5. Confirm that the file is being saved in "myFirstProjects".
 6. Select “Save”.  (A pop-up to purchase may occur - you may press cancel.)
-7. Delete “styles.css” on line one.
 
 
 WRITE CODE INTO THE "styles.css" FILE
@@ -133,17 +130,17 @@ html, body {
 
 VIEW FILE IN BROWSER - ONLY OPENS IN CHROME
 1. Install "Chrome" browser if it is not installed on your computer.
-	A. Google "chrome".
+	A. Google "Chrome".
 	B. Install latest version.
 2. In Sublime Text move cursor over index.html file text window space.
 3. Two finger click.
 4. Select "Open in Browser" in grey popup box.
-5. Files are opened in Chrome.
+5. Files are opened in "Chrome".
 6. You should see three boxes with the colors red, blue, and grey.
 
 
 WRITE MORE CODE INTO THE "index.html" FILE
-0. After the code you already typed into "index.html" file under "<body>", type:
+1. After the code you already typed into "index.html" file under "<body>", type:
 
 	<!-- second - text area -->
 	<div layout="column" class="textAll">
@@ -174,11 +171,11 @@ WRITE MORE CODE INTO THE "index.html" FILE
 			</div>	
 	</div>
 
-1.Save.
+2.Save.
 
 
 WRITE MORE CODE INTO THE "styles.css" FILE
-0. After the code you already typed into the "styles.css" file, type:
+1. After the code you already typed into the "styles.css" file, type:
 
 /*second - text area*/
 .textAll {
@@ -204,7 +201,10 @@ WRITE MORE CODE INTO THE "styles.css" FILE
   width: 325px;
 }
 
-1. Save.
+2. Save.
+3. Go to "Chrome" browser.
+4. Press "command R".
+5. Scroll down. There should be three boxes at the top, a place for text, another line of two more boxes, and the last line of three boxes.
 
 
 THIS IS WHAT THE COMPLETED "index.html" FILE LOOKS LIKE
@@ -323,28 +323,28 @@ html, body {
 
 TIME TO PLAY - FURTHER UNDERSTANDING HTML
 (I AM USING HTML AND ANGULAR MATERIAL DESIGN HERE)
-0. Find the "flex" property inside the <body>. 
-1. Change the "flex" numbers to 5, 10, and 15.
-2. Press "command S".
-3. Repeat the exploration!
+1. Find the "flex" property inside the <body>. 
+2. Change the "flex" numbers to 5, 10, and 15.
+3. Press "command S".
+4. Repeat the exploration!
 
 
 TIME TO PLAY - FURTHER UNDERSTANDING CSS (Cascading Style Sheets) COLORS
-0. In your Chrome browser go to website https://www.google.com/design/spec/style/color.html#
-1. Scroll down the page to see all the colors!
-2. Pick any color identifier (it looks like #000000, and has numbers and letters).
-3. Open the "styles.css" file.
-4. Replace the color identifier of "background: #D50000" in the "styles.css" file with the color of your choice.
-5. Press "command S".
-6. Go to your Chrome browser and press "command R" to refresh the browser. The color has changed!
-7. Repeat the fun!
+1. In your Chrome browser go to website https://www.google.com/design/spec/style/color.html#
+2. Scroll down the page to see all the colors!
+3. Pick any color identifier (it looks like #000000, and has numbers and letters).
+4. Open the "styles.css" file.
+5. Replace the color identifier of "background: #D50000" in the "styles.css" file with the color of your choice.
+6. Press "command S".
+7. Go to your Chrome browser and press "command R" to refresh the browser. The color has changed!
+8. Repeat the fun!
 
 
 TIME TO PLAY - FURTHER UNDERSTANDING CSS PROPERTIES
-0. Adjust the margin, height, and width numbers.
-1. Save.
-2. Refresh Chrome browser.
-3. Repeat the fun!
+1. Adjust the margin, height, and width numbers.
+2. Save.
+3. Refresh Chrome browser.
+4. Repeat the fun!
 
 
 FAQ's
