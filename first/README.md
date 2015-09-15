@@ -8,7 +8,10 @@ This README.md file provides directions for a beginner learning how to work with
 
 I work on a MacBook Pro and these directions are specific for Macs and some directions may be specific for my Mac due to individual settings on my computer.  Please email me at sherlynburkhart@gmail.com with any questions, comments, corrections, or clarifications.
 
-This project creates boxes of different shapes and sizes with a place for text.
+
+TO VIEW PNG OF WHAT THIS PROJECT LOOKS SIMILAR TO WHEN FINISHED
+1. Click on this link or paste link in your browser.
+https://github.com/SherlynKBurkhart/HTML-CSS-practice/blob/master/first/first.png
 
 
 CREATE A "myProjects" FOLDER
