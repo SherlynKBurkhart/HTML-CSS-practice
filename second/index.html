@@ -1,0 +1,71 @@
+<!-- second project - practicing HTML and Angular Material Design -->
+
+<!DOCTYPE html>
+	<head>
+		<title>practicing HTML
+		</title>
+
+		<!-- links -->
+	    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
+		<link type="text/css" rel="stylesheet" href="styles.css"/>
+	</head>
+
+	<body>
+
+		<!-- top box - five sentences, red click button, blue click button-->
+		<div layout="row">
+			<div flex="85"
+				class="topbox">
+				<p>HOW DOES THE HTML FILE AND CSS FILE TALK TO EACH OTHER? In the body of "index.html", each div (short for a division of space) has a "class" attribute. Each "class" attribute is equal to a camelCase name chosen by the programmer. That name is then used in the css file to give characteristics to the element.
+				</p>
+				<md-button 
+					flex="20" 
+					class="buttons">Click
+				</md-button>
+				<md-button
+					flex="20"
+					class="buttons buttonBlue">Click
+				</md-button>
+			</div>
+		</div>
+
+		<!-- middle box - Insert Image box, five sentences -->
+		<div layout="row">
+			<div flex="85"
+				class="middleBox">
+			<div flex="75"
+				class="greyBox">
+				<div class="insertImage">Insert Image
+				</div>
+			</div>
+			<div flex="75">
+				<p>HOW DOES THE HTML FILE AND CSS FILE TALK TO EACH OTHER? In the body of "index.html", each div (short for a division of space) has a "class" attribute. Each "class" attribute is equal to a camelCase name chosen by the programmer. That name is then used in the css file to give characteristics to the element.
+				</p>
+			</div>	
+			</div>	
+		</div>
+
+		<!-- footer -->
+		<footer>
+			<div layout="row">
+				<div flex="10"
+					offset="75"
+					class="linkAG">Apple
+					<a href="http://www.apple.com">
+					</a>
+				</div>
+					
+				<div flex="10"
+					class="linkAG">Google
+					<a href="http://www.google.com">
+					</a>
+				</div>
+			</div>
+		</footer>
+
+		<!-- sources -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js">
+		</script>
+
+	</body>
+</html>
