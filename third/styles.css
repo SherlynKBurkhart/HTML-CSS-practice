@@ -1,0 +1,46 @@
+
+/*header*/
+header {
+	background: #333333;
+	color: white;
+	height: 100px;
+	padding: 5px;
+}
+ 
+.linkAG {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+  text-decoration: none;
+}
+
+/*title, paragraphs*/
+.whiteSpace {
+	height: 1200px;
+}
+
+h1 {
+	color: #333333;
+	font-size: 60px;
+	line-height: 50px;
+	margin-top: 75px;
+}
+
+p {
+	line-height: 25px;
+	font-weight: bold;
+}
+
+/*box*/
+.boxGrey {
+  background: #E0E0E0;
+  height: 400px;
+  margin-top: 75px;
+}
+
+/*footer*/
+footer{ 
+	background: #333333;
+	height: 90px;
+}
